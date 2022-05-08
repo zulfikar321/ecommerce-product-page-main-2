@@ -15,11 +15,8 @@ Your users should be able to:
 
 ### Screenshot
 
-![ecommerce1]()
-![ecommerce2]()
-![ecommerce3]()
-
-## My process
+![ecommerce1](https://github.com/zulfikar321/ecommerce-product-page-main-2/blob/main/screenshot/Web%20capture_8-5-2022_205130_127.0.0.1.jpeg?raw=true)
+![ecommerce2](https://github.com/zulfikar321/ecommerce-product-page-main-2/blob/main/screenshot/Web%20capture_8-5-2022_205158_127.0.0.1.jpeg?raw=true)
 
 ### Built with
 
