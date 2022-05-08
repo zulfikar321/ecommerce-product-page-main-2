@@ -1,0 +1,28 @@
+@import "index.css";
+
+.image__lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.image__lightbox__inner {
+  width: max-content;
+}
+
+.lightbox {
+  display: flex;
+}
+.button__wrapper__lightbox {
+  position: absolute;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  top: 40%;
+}

@@ -1,0 +1,128 @@
+.image__slideshow {
+  position: relative;
+  max-width: 500px;
+}
+
+.images__preview {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  border-radius: 0px;
+}
+
+.slideshow__button {
+  position: absolute;
+  top: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.slideshow__button__lightbox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 525px;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.images__thumbnails {
+  width: 100%;
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.product__image__thumbnails {
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.product__image__thumbnails:hover {
+  color: aliceblue;
+  filter: opacity(50%);
+}
+
+.active {
+  border: 5px solid rgb(255, 136, 0);
+  filter: opacity(50%);
+}
+
+.image__slideshow__lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.877);
+  padding: 20px;
+}
+
+.active__lightbox {
+  display: flex;
+}
+
+.btn__close {
+  display: flex;
+  width: 500px;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.close__icon {
+  width: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.product__image__thumbnails__lightbox {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.product__image__thumbnails__lightbox:hover {
+  color: aliceblue;
+  filter: opacity(50%);
+}
+
+@media (min-width: 1140px) {
+  .images__thumbnails {
+    display: grid;
+  }
+  .slideshow__button {
+    display: none;
+  }
+  .images__preview {
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .image__slideshow {
+    width: 500px;
+  }
+}
