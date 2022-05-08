@@ -2,7 +2,7 @@
 
 ### Links
 
-- Live Site URL:
+- Live Site URL: https://zulfikar321.github.io/ecommerce-product-page-main-2/
 
 ### The challenge
 
