@@ -64,15 +64,19 @@
 .btn__cart {
   display: flex;
   background-color: var(--Orange);
-  padding: 10px 40px;
+  padding: 15px 60px;
   color: white;
   gap: 10px;
   border-radius: 7px;
   cursor: pointer;
 }
 
+.btn__cart:hover {
+  background-color: orange;
+}
+
 .btn__cart img {
-  color: white;
+  filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4);
 }
 
 @media (max-width: 600px) {

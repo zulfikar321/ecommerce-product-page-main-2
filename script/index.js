@@ -153,6 +153,7 @@ function createCartDetailsElement(cartText) {
 }
 
 function addToCart() {
+  console.log();
   quantity = 0;
   if (cartText === 0) return;
   quantityTextElement.innerText = 0;
